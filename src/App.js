@@ -6,8 +6,6 @@ import PokeAxios from './components/PokeAxios';
 function App() {
   const [pokemon, setPokemon] = useState([]);
 
-  
-
   return (
     <>
       {/* <PokeFetch pokemon={pokemon} setPokemon={setPokemon}/> */}
