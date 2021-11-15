@@ -9,7 +9,11 @@ function App() {
   return (
     <>
       {/* <PokeFetch pokemon={pokemon} setPokemon={setPokemon}/> */}
-      <PokeAxios pokemon={pokemon} setPokemon={setPokemon}/>
+      <PokeAxios 
+      pokemon={pokemon} 
+      setPokemon={setPokemon}
+      
+      />
     </>
   )
 }

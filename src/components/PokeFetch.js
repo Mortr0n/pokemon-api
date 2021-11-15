@@ -27,7 +27,7 @@ const PokeFetch = (props) => {
             {
             pokemon.map((poke, index)=>{
             return(
-                <div key={index}>
+                <div key={index} style={{textAlign:"center"}}>
                     {poke.name}
                 </div>
             )
